@@ -45,6 +45,19 @@ try:
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
+#commmands
+def start(update, context):
+    update.message.reply_text("Hello this is the test bot")
+
+def help(update< context):
+    update.message.reply_text("""
+    /start -> to start the bot 
+    /help -> to get help """
+                             )
+
+def users(update, context):
+    update.message.reply_text("total_users")
+
 #Force sub message 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
 
