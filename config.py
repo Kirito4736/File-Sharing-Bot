@@ -30,14 +30,31 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://botmaker9675208:botmaker9
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002126040815"))
-JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", "-1002100275391")
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", "")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","")
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\n I can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "🎚Cʜᴀɴɴᴇʟ Lɪɴᴋ ⟹ https://t.me/+pT2esZ-4jucyZDc1
+
+✅ (BluRay + Original Audios) - [1080p - 720p - 480p - 360p - 280p]
+
+✅ 240p - https://t.me/+pT2esZ-4jucyZDc1
+
+✅ 360p - https://t.me/+pT2esZ-4jucyZDc1
+
+✅ 720P - https://t.me/+pT2esZ-4jucyZDc1
+
+✅ 1080P - https://t.me/+pT2esZ-4jucyZDc1
+
+✅ Join & Download Now ⬇️
+
+Search Any Movie/Series Here And Get It In 1 Seconds👇👇👇👇👇
+https://t.me/+tqHsm2_-lts3NTk1
+https://t.me/+tqHsm2_-lts3NTk1 
+https://t.me/+tqHsm2_-lts3NTk1")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
